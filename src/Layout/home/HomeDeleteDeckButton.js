@@ -11,10 +11,10 @@ function HomeDeleteDeckButton({ deck }) {
   };
 
   return (
-    <button type="button" class="btn btn-danger" onClick={handleTrashClick}>
+    <button type="button" className="btn btn-danger" onClick={handleTrashClick}>
       {/*Triggering a refresh makes sure it doesnt display anymore*/}
-      <a href="/" class="text-white">
-        <span class="oi oi-trash" />
+      <a href="/" className="text-white">
+        <span className="oi oi-trash" />
       </a>
     </button>
   );
